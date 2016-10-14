@@ -1,0 +1,40 @@
+"*":
+  core:
+    disabledPackages: [
+      "file-icons"
+      "file-type-icons"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "photon-syntax"
+    ]
+  "disable-keybindings":
+    communityPackages: [
+      "vim-mode-plus"
+    ]
+    prefixKeys: [
+      "ctrl-w"
+    ]
+  editor:
+    fontSize: 17
+  "exception-reporting":
+    userId: "456f4741-2690-aabe-566a-706ac0a45f77"
+  linter:
+    errorPanelHeight: 24
+  "linter-eslint":
+    fixOnSave: true
+    lintHtmlFiles: true
+  "todo-show":
+    sortBy: "Path"
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+    showOnRightSide: true
+  "vim-mode-plus":
+    clearHighlightSearchOnResetNormalMode: true
+    highlightSearch: true
+    showHoverSearchCounter: true
+    useClipboardAsDefaultRegister: true
+  welcome:
+    showOnStartup: false
